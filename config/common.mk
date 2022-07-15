@@ -185,6 +185,9 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay
 
+# Bootanimation
+$(call inherit-product, vendor/aosp/config/bootanimation.mk)
+
 include vendor/pixelstar/config/branding.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
