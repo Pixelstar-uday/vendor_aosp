@@ -1,5 +1,6 @@
 # Copyright 2013 The Android Open Source Project
 # Copyright 2019 The LineageOS Project
+# Copyright 2023 Pixelstar Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,13 +25,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/alarms/ogg/Barium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Barium.ogg \
     $(LOCAL_PATH)/alarms/ogg/Hassium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Hassium.ogg \
     $(LOCAL_PATH)/alarms/ogg/Scandium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Scandium.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Argon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Carbon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Carbon-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Krypton-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Krypton-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Neon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Neon-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Osmium-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Osmium-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Oxygen-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Oxygen-old.ogg \
-    vendor/lineage/prebuilt/common/media/audio/alarms/Platinum-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Platinum-old.ogg
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Argon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Carbon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Carbon-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Krypton-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Krypton-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Neon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Neon-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Osmium-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Osmium-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Oxygen-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Oxygen-old.ogg \
+    vendor/pixelstar/prebuilt/common/media/audio/alarms/Platinum-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Platinum-old.ogg
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/F1_New_SMS.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/F1_New_SMS.ogg \
@@ -74,7 +75,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/ogg/Iridium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Iridium.ogg \
     $(LOCAL_PATH)/notifications/ogg/Krypton.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Krypton.ogg \
     $(LOCAL_PATH)/notifications/ogg/Mira.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mira.ogg \
-    $(LOCAL_PATH)/notifications/ogg/Palladium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Palladium.ogg \
+    $(LOCAL_PATH)/notifications/ogg/pixelstar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pixelstar.ogg \
     $(LOCAL_PATH)/notifications/ogg/Polaris.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Polaris.ogg \
     $(LOCAL_PATH)/notifications/ogg/Pollux.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pollux.ogg \
     $(LOCAL_PATH)/notifications/ogg/Procyon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Procyon.ogg \

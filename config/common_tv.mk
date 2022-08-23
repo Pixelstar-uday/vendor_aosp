@@ -1,15 +1,15 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common pixelstar stuff
+$(call inherit-product, vendor/pixelstar/config/common.mk)
 
-# Inherit Lineage atv device tree
-$(call inherit-product, device/lineage/atv/lineage_atv.mk)
+# Inherit pixelstar atv device tree
+$(call inherit-product, device/pixelstar/atv/pixelstar_atv.mk)
 
 # AOSP packages
 PRODUCT_PACKAGES += \
     LeanbackIME
 
-# Lineage packages
+# pixelstar packages
 PRODUCT_PACKAGES += \
     LineageCustomizer
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/tv
+PRODUCT_PACKAGE_OVERLAYS += vendor/pixelstar/overlay/tv

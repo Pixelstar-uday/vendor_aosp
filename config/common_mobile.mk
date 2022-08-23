@@ -1,11 +1,11 @@
-# Inherit common mobile Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common mobile pixelstar stuff
+$(call inherit-product, vendor/pixelstar/config/common.mk)
 
 # Include AOSP audio files
-include vendor/lineage/config/aosp_audio.mk
+include vendor/pixelstar/config/aosp_audio.mk
 
-# Include Lineage audio files
-include vendor/lineage/config/lineage_audio.mk
+# Include pixelstar audio files
+include vendor/pixelstar/config/pixelstar_audio.mk
 
 # Default notification/alarm sounds
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -39,10 +39,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-ifneq ($(WITH_LINEAGE_CHARGER),false)
+ifneq ($(WITH_PIXEL_CHARGER),false)
 PRODUCT_PACKAGES += \
-    lineage_charger_animation \
-    lineage_charger_animation_vendor
+    pixel_charger_animation \
+    pixel_charger_animation_vendor
 endif
 
 # Customizations
