@@ -40,7 +40,7 @@ SOONG_CONFIG_customGlobalVars += \
     gralloc_handle_has_reserved_size \
     needs_camera_boottime \
     uses_oplus_camera \
-    uses_oppo_camera \
+    uses_nothing_camera \
     target_alternative_futex_waiters \
     camera_uses_newer_hidl_override_format \
     target_health_charging_control_charging_path \
@@ -100,6 +100,8 @@ SOONG_CONFIG_customQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBRA
 SOONG_CONFIG_customGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
 SOONG_CONFIG_customGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 SOONG_CONFIG_customGlobalVars_uses_oppo_camera := $(TARGET_USES_OPPO_CAMERA)
+SOONG_CONFIG_customGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
+SOONG_CONFIG_customGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 
 
 # Set default values
