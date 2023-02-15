@@ -230,7 +230,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    NexusLauncherResOverlay
 
 # Bootanimation
 $(call inherit-product, vendor/aosp/config/bootanimation.mk)
