@@ -53,7 +53,8 @@ SOONG_CONFIG_customGlobalVars += \
     target_uses_prebuilt_dynamic_partitions \
     uses_legacy_fd_fbdev \
     uses_egl_display_array \
-    needs_oplus_tag
+    needs_oplus_tag \
+    include_miui_camera
 
 SOONG_CONFIG_NAMESPACES += customNvidiaVars
 SOONG_CONFIG_customNvidiaVars += \
@@ -91,6 +92,7 @@ SOONG_CONFIG_customGlobalVars_gralloc_handle_has_custom_content_md_reserved_size
 SOONG_CONFIG_customGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
 SOONG_CONFIG_customQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM)
 SOONG_CONFIG_customGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
+SOONG_CONFIG_customGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 
 
 # Set default values
