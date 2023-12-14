@@ -218,9 +218,6 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 # OTA
 #$(call inherit-product, vendor/aosp/config/ota.mk)
 
-# RRO Overlays
-$(call inherit-product, vendor/aosp/config/rro_overlays.mk)
-
 # Clocks
 $(call inherit-product, vendor/aosp/config/clocks.mk)
 
