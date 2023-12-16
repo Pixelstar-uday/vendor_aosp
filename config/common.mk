@@ -50,8 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/org.lineageos.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.xml \
 
 # Copy all custom init rc files
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init/init.pixelstar-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-updater.rc
+#PRODUCT_COPY_FILES += \
+#    vendor/aosp/prebuilt/common/etc/init/init.pixelstar-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-updater.rc
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -135,11 +135,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.rotation_locked=true \
     setupwizard.enable_assist_gesture_training=true \
-    setupwizard.theme=glif_v3_light \
     setupwizard.feature.baseline_setupwizard_enabled=true \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
-    setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
-    setupwizard.feature.show_pixel_tos=false
+    setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false 
 
 # StorageManager configuration
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -217,9 +215,6 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 
 # OTA
 #$(call inherit-product, vendor/aosp/config/ota.mk)
-
-# Clocks
-$(call inherit-product, vendor/aosp/config/clocks.mk)
 
 # Pixel Framework
 $(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
